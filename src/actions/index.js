@@ -1,8 +1,10 @@
 import * as types from '../constants';
 
 export const increment = () => {
-  return {
-    type: types.INCREMENT
+  return (dispatch) => {
+    setTimeout(() => {
+      dispatch({ type: types.INCREMENT });
+    }, 1000);
   };
 };
 

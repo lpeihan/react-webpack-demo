@@ -13,7 +13,6 @@ module.exports = {
     // https://github.com/standard/standard/blob/master/docs/RULES-en.md
     'standard'
   ],
-  // required to lint *.vue files
   plugins: [
     'react'
   ],
