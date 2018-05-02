@@ -41,7 +41,8 @@ rm(resolve('dist'), err => {
     ));
     console.log(chalk.cyan(
       '  npm install -g serve\n' +
-      '  serve -s dist\n'
+      '  serve -s dist\n\n',
+      '----------------------------------------------'
     ));
   });
 });
