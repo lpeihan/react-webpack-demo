@@ -101,9 +101,10 @@ const mapStateToProps = (state) => {
 };
 
 App.propTypes = {
-  counter: PropTypes.number.isRequired,
   reminders: PropTypes.array.isRequired,
-  addReminder: PropTypes.func.isRequired
+  addReminder: PropTypes.func.isRequired,
+  deleteReminder: PropTypes.func.isRequired,
+  clearReminders: PropTypes.func.isRequired
 };
 
 export default connect(
